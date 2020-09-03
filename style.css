@@ -386,3 +386,111 @@ li a:hover
     margin: 0 29% 0 auto;
     font-size: 36px;
 }
+@media all and (max-width:1000px)
+{   /*Nav responsive*/
+    .nav-header-wrapper
+    {
+        
+    }
+    .nav-header-wrapper ul
+    {
+        margin: auto;
+    }
+    .nav-header-wrapper h2
+    {
+        display: none;
+    }
+    .nav-link-wrapper:last-child
+    {
+        margin: auto;
+    }
+    .nav-link:first-child
+    {
+        display: none;
+    }
+    /*Home responsive**/
+    .home-wrapper
+    {
+        height: auto;
+        padding-top: 15vh;
+    }
+    .left-column
+    {
+        flex: auto;
+        width: 100%;
+    }
+    .left-column h3
+    {
+        font-size: 9px;
+    }
+    .buttons-wrapper 
+    {
+        flex-direction: column;
+    }
+    .cy-btn
+    {
+        margin: 10px 0;
+    }
+    .right-column
+    {
+        display: none;
+    }
+    /*About responsive*/
+    .about-wrapper
+    {
+        height: auto;
+    }
+    .socialMedia-wrapper
+    {
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+    }
+    .about-box-wrapper 
+    {
+        margin: 0;
+        padding: 0;
+        clip-path: none;
+    }
+    /*Skills responsive*/
+    .skills-wrapper
+    {
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+    .codeSkill
+    {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        grid-row-gap: 25px;
+    }
+    /*sort Skillcard */
+    .html-skill{grid-column: 1/2; grid-row:2/3;}
+    .css-skill{grid-column: 1/2; grid-row:3/4;}
+    .javascript-skill{grid-column: 1/2; grid-row:4/5;}
+    .react-skill{grid-column: 1/2; grid-row:5/6;}
+    .net-skill{grid-column: 1/2; grid-row:6/7;}
+    .unity-skill{grid-column: 1/2; grid-row:7/8;}
+    .photoshop-skill{grid-column: 1/2; grid-row: 9/10;}
+    .corel-skill{grid-column: 1/2; grid-row: 10/11;}
+    .figma-skill{grid-column: 1/2; grid-row: 11/12;}
+    .skill-header-two 
+    {
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+    /*Work Responsive*/
+    .work-wrapper
+    {
+        background-repeat:repeat;
+    }
+    /*Footer responsive*/
+    .info-wrapper
+    {
+        justify-content: center;
+    }
+    .info-wrapper h2
+    {
+        display: none;
+    }
+}
